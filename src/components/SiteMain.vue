@@ -16,7 +16,7 @@
 <script setup>
 import { ref, defineAsyncComponent, onMounted, inject } from "vue";
 
-const idvalue = "91caab9a9bc945309802175ab9f7d32d";
+const idvalue = ref("91caab9a9bc945309802175ab9f7d32d");
 
 const List = defineAsyncComponent(() => import("@/components/main/List.vue"));
 const Post = defineAsyncComponent(() => import("@/components/main/Post.vue"));
