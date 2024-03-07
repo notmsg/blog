@@ -22,7 +22,11 @@ getPageBlocks(props.id).then((value) => (blockMap.value = value));
 /* optional Notion-like styles */
 @import "vue-notion/src/styles.css";
 
+.notion-page-offset {
+  margin-top: 0px;
+}
+
 .notion-title {
-  background-color: #e39;
+  color: #e39;
 }
 </style>

@@ -55,9 +55,10 @@ nav {
   width: 80%; /*헤더 크기의*/
   padding: 5px;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
 .input-search {
-  display: inline;
-  float: right;
+  margin-left: auto;
 }
 </style>
